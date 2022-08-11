@@ -54,22 +54,31 @@ void separate(string str)
 
 }
 
-/*void word(string str)
-{
-    char word[20][20];
-    for (int i = 0; i < str.length(); i++)
-    {
-        if(str[i] == ' ')
-        {
-            for (int j = 0; j < str.length(); j++)
-            {
-                word[][]
-                k++;
+void solve(string text){
+    int i,j,k,l,m,n,in1=0,in2=0;
+    char vw[1000],cns[1000];
+
+    for(i=0;text[i];i++){
+        if(is_vowel(text[i])){
+            while(text[i]!=' '&&text[i]!='\0'){
+                vw[in1++] = text[i++];
             }
+            i--;
+            vw[in1++]  = ' ';
+        }
+        else if(text[i]>='A'&&text[i]<='Z'||text[i]>='a'&&text[i]<='z'){
+            while(text[i]!=' '&&text[i]!='\0'){
+                cns[in2++] = text[i++];
+            }
+            i--;
+            cns[in2++]  = ' ';
         }
     }
-
-}*/
+    vw[in1] = '\0';
+    cns[in2] = '\0';
+    printf("\n\nWords started with vowel : %s\n",vw);
+    printf("Words started with consonant : %s\n",cns);
+}
 
 
 
@@ -88,6 +97,8 @@ int main()
     count(text);
     // 2. b
     separate(text);
+
+    solve(text);
     // 2. c
    // word(text);
 
