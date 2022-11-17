@@ -1,0 +1,25 @@
+01 : Invalid Input 
+ia3242 : Integer Variable 
+i : Integer Variable 
+i1A45& : Invalid Input 
+82490384jfsla : Invalid Input 
+1 : Short Integer Number
+0 : Invalid Input 
+10 : Short Integer Number
+11 : Short Integer Number
+101 : Short Integer Number
+1000 : Short Integer Number
+1001 : Short Integer Number
+1010 : Short Integer Number
+1011 : Short Integer Number
+0101 : Invalid Input 
+0000 : Invalid Input 
+a012 : Invalid Input 
+-08fsdjl : Invalid Input 
+.&76766 : Invalid Input 
+111111111 : Long Integer Number 
+10032420394 : Long Integer Number 
+1028304874298 : Long Integer Number 
+12edrfdsfs : Invalid Input 
+i876gjhgg9088 : Integer Variable 
+josdfsuf : Integer Variable 
